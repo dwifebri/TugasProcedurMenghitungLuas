@@ -1,0 +1,34 @@
+TugasProcedurMenghitungLuas
+===========================
+
+SI13_DwiFebriRiyono_13311053P_TugasProcedurMenghitungLuas
+
+package id.blits.menghitungluas;
+
+public class MainMenu {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+       System.out.println("<<<===>>> MENGHITUNG LUAS <<<===>>>"+"\n");
+        PersegiPanjang dwi = new PersegiPanjang();
+        dwi.panjang=15;
+        dwi.lebar=10;
+        dwi.tampilPersegiPanjang();
+        
+        Lingkaran febry = new Lingkaran();
+        febry.jarijari= 2 ;
+        febry.tampilLingkaran();
+        
+        Segitiga riyono = new Segitiga();
+        riyono.alas= 5 ;
+        riyono.tinggi=10;
+        riyono.tampilSegitiga();
+    
+    }
+    
+}
+
